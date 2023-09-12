@@ -37,6 +37,10 @@
             flex-direction: column;
             align-items: flex-start;  이미지를 왼쪽으로 정렬합니다. */
         }
+        .profile-image-container {
+            display: inline-block; /* 이미지를 인라인 요소처럼 표시하고 다른 내용과 같은 줄에 표시합니다. */
+            margin-right: 10px; /* 이미지와 텍스트 사이의 간격을 조절할 수 있습니다. */
+        }
 
         h1 {
             font-size: 24px;
@@ -52,9 +56,11 @@
 <body>
     <div class="centered-content">
         <div class="profile-content">
-            <h1>Joongon Choi_2</h1>
+            <h1>Joongon Choi_3</h1>
             <p>
-                <img class="profile-image" src="joongonchoi.jpg" alt="Your Name">
+                <span class="profile-image-container">
+                    <img class="profile-image" src="joongonchoi.jpg" alt="Your Name">
+                </span>                
                 I'm a passionate web developer with a strong interest in creating responsive and user-friendly websites.
                 In my free time, I enjoy learning new technologies and working on personal coding projects.
                 Feel free to reach out to me at your.email@example.com.
